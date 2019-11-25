@@ -26,6 +26,9 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  list = []
+  counter = 0
+  while counter < source[dir]
 end
 
 def total_gross(source)
