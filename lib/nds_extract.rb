@@ -30,7 +30,7 @@ count = 0
 array = []
 
 while count < source.size do
-  director = source[count]
+  director = source[count][:name]
   array[count] = director
   count += 1
 end
