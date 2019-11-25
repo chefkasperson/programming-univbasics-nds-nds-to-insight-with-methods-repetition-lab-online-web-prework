@@ -29,8 +29,9 @@ def list_of_directors(source)
 count = 0
 array = []
 
-while count < source[directors].length do
-  array = [source[count]]
+while count < source.size do
+  director = source[count]
+  array[count] = director
   count += 1
 end
 puts array
