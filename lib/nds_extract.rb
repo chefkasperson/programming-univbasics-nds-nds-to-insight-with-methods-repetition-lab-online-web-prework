@@ -26,15 +26,9 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  list = []
-  counter = 0
-  while counter < source[director_index].length do
-    name = source[counter][:name]
-    name << list
-    
-    counter +=1
-  end
-  list
+require 'pp'
+
+pp source
 end
 
 def total_gross(source)
