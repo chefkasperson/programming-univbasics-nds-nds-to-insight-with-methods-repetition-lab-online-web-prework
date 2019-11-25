@@ -26,9 +26,16 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-require 'pp'
+count = 0
+array = []
 
-pp source
+while count < source[directors].length do
+  array = [source[count]]
+  count += 1
+end
+puts array
+array
+
 end
 
 def total_gross(source)
